@@ -10,7 +10,7 @@ La plantila fue diseñada en figma
 ### Preview
 ![img](https://i.imgur.com/wJAH6Ui.png)
 ## Tecnologías
-HTML, CSS, JavaScript para el desarrollo de la pag web.
+HTML, CSS, JavaScript
 
 ## API Oficial
 [Rick and Morty API](https://rickandmortyapi.com/)
