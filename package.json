@@ -1,0 +1,27 @@
+{
+  "name": "async_page",
+  "version": "1.0.0",
+  "description": "data of rick and morty api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "async": "node ./js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cangalaya/rick-and-morty-page.git"
+  },
+  "keywords": [
+    "async",
+    "fectdata"
+  ],
+  "author": "Alonso Cangalaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cangalaya/rick-and-morty-page/issues"
+  },
+  "homepage": "https://github.com/cangalaya/rick-and-morty-page#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
