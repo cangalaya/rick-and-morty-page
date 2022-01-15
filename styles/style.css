@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+:root {
+    --sm-movile : 1.25rem;
+    --md-movile : 1.5em;
+    --lg-movile : 2.6rem;
+
+    --sm-desktop : 1.75rem;
+    --md-desktop : 2em;
+    --lg-desktop : 3rem;
+
+    --purple: #5C2F8C;
+    --green: #1EF30D;
+}
+
+nav {
+    background-color: var(--purple);
+    position: absolute;
+    top: 0;
+}
+nav picture img {
+    height: 40px;
+}
+.navbar {
+    width: 100vw;
+    height: 48px;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 24px;
+    
+}
+.navbar ul {
+    display: none;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.navbar li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.navbar .nav-items {
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-items .menu-icon img {
+    height: 30px;
+    width: 30px;
+}
+
+.welcome-section {
+    background-image: url("../img/movile/banner-movile.png");
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    justify-content: center;
+}
+
+.welcome-section .welcome-tarjet {
+    width: 90vw;
+    max-width: 550px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.88);
+    border-radius: 10px;
+    padding: 20px 20px;
+    position: relative;
+    top: 40px;
+}
+.welcome-section img {
+    display: none;
+}
+.title {
+    font-size: var(--lg-movile);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.description {
+    font-size: var(--md-movile);
+    color: white;
+}
+
+.main-container-targets {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    display: grid;
+    place-items: center;
+}
+.container-title-section {
+    background-color: var(--purple);
+    display: block;
+    padding: 8px 12px 8px 20px;
+    position: relative;
+    justify-self: start;
+}
+.container-targets {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px;
+    justify-content: center;
+}
+
+.tarjet {
+    border:  4px solid #000000;
+    border-radius: 12px;
+    height: 60vh;
+    width: auto;
+    max-width: 270px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--purple);
+}
+.tarjet > img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.tarjet > h2 {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    padding: 2px 12px;
+    background-color: var(--green);
+    box-shadow: 3px 3px 0px #ACF5DA;
+    border: 1px solid #000000;
+}
+.tarjet .description-tarjet {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 14px;
+    font-size: 1.4rem;
+}
+.tarjet .description-tarjet p{
+    margin-bottom: 4px;
+}
+.tarjet .icons-target {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.icon-live {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: black 1px solid;
+    padding: 0 6px;
+}
+.icon-live > p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 4px;
+}
+.icon-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #E2EB82;
+    border-radius: 16px;
+    border: black 1px solid;
+    padding: 0 6px;
+}
+.icon-location > p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+
+footer {
+    background-color: var(--purple);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.developer-contact {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: var(--sm-movile);
+    font-weight: bold;
+    color: white;
+}
+.developer-contact > img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: black 2px solid;
+}
+footer ul{
+    margin-left: 8px;
+}
+footer a {
+    color: white;
+    font-size: var(--sm-movile);
+    width: 40vw;
+    text-decoration: none;
+}
+footer li {
+    display: inline-block;
+    margin: 4px;
+}

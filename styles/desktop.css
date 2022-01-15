@@ -1,0 +1,72 @@
+.navbar {
+    padding: 0 40px;
+    height:60px;
+}
+.navbar ul {
+    display: inline-block;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: var(--md-desktop);
+    font-weight: 500;
+    transition: font-weight 0.2s;
+    
+}
+.navbar a:hover {
+    font-weight: 510;
+}
+
+.navbar .menu-icon {
+    display: none;
+}
+
+.welcome-section {
+    background-image: url("../img/desktop/banner-desktop.png");
+    height: 95vh;
+    justify-content: start;
+}
+.welcome-section .welcome-tarjet {
+    position: static;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.welcome-section img {
+    display: block;
+    width: 10vw;
+    position: absolute;
+    top: 90vh;
+    left: 45vw;
+}
+.title {
+    font-size: var(--lg-desktop);
+}
+.description {
+    font-size: var(--md-desktop);
+}
+.container-title-section {
+    padding: 12px 20px 12px 40px;
+    left: -40px;
+    top: -20px;
+}
+.main-container-targets{
+    padding: 40px;
+}
+
+
+footer {
+    padding: 12px 40px;
+}
+footer a{
+    font-size: var(--sm-desktop);
+}
+footer li{
+    margin-left: 24px;
+}
+.developer-contact > img {
+    width: 50px;
+    height: 50px;
+}
+.developer-contact > p{
+    font-size: 14px;
+}
